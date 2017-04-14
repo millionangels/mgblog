@@ -1,0 +1,172 @@
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <a name="start"></a>
+<div class="customlogo">MEGAN GOODACRE</div>
+/* Use your browser's developer tools (Firebug, Web Inspector) to inspect ProSite's markup and associated CSS styles, then write your own CSS here. 
+As a general rule, don't use very broad selectors (e.g. "div") as they will affect the ProSite editor. */
+#site-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px;
+  padding: 0;
+}
+#primary-content {
+  margin: 0 auto;
+}
+/***hide column 1***/
+#tweets-container, #two-column-welcome-and-tweet-text-container, #two-column-welcome-and-tweet-text {
+  display: none;
+  width: 0;
+  height: 0;
+}
+/***logo*/
+.customlogo {
+   font-family: BrandonGrotesque, 	 helvetica, arial, sans-serif;
+  letter-spacing: 4px;
+  font-size: 24px;
+  opacity: .7;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-weight: 100;
+}
+#logo-nav-container {
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+}
+#two-column-logo-wrap, #two-column-logo {
+  width: 100%;
+}
+#two-column-logo {
+  margin-top: 10px;
+  margin-bottom: 22px;
+}
+#two-column-logo img {
+  display: block;
+  margin: 0 auto; 
+}
+#logo-nav-container .template-column-2 {
+  margin: 0px;
+}
+/****end logo*/
+/*nav*/
+#site-container .nav-link-container {
+  margin: 0;
+}
+#two-column-nav-links-container {
+  width: 100%;
+}
+#two-column-nav-links {
+  width: 100%;
+  text-align:center; 
+  border-bottom: 1px solid gainsboro;
+}
+#two-column-nav-links li {
+  float:none !important;
+  padding:10px !important;
+  margin: 0px auto 0px auto !important;
+  text-align:center !important;
+  border-top: 1px solid gainsboro;
+  line-height: 3.5;
+}
+.nav-link-container a {
+  font-size: 16px !important;
+}
+@media only screen and (min-width: 768px) {
+  #two-column-logo {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    #two-column-nav-links li {
+        float:none !important;
+        padding:0px !important;
+        margin:30px 10px 5px 10px !important;
+        text-align:center !important;
+        display: inline-block;
+        border: 0;
+    }
+    .nav-link-container a {
+        font-size: 16px !important;
+        line-height: 1 !important;
+      }
+}
+@media only screen and (min-width: 950px) {
+  #two-column-nav-links li {
+    float:none !important;
+    padding:0px !important;
+    margin:30px 20px 5px 20px !important;
+    text-align:center !important;
+    display: inline-block;
+    border: 0;
+  }
+  .nav-link-container a {
+    font-size: 18px !important;
+    line-height: 1 !important;
+  }
+}
+/*** end nav/
+/*** project thumbs ***/
+
+#two_column-projects-width, #two-column-projects-thumbnails {
+    display: -webkit-flex !important;
+    display: flex !important;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+   -webkit-justify-content: space-between;
+   -webkit-flex-wrap: wrap;
+}
+#two_column-projects {
+ margin: 0 auto;
+  width: 100%;
+}
+#two_column-projects .project-cover .project-image {
+  padding: 0px; 
+  margin: 0px;
+}
+#two_column-projects-width li {
+  box-sizing: border-box;
+  margin: 10px !important;
+}
+#two-column-projects-thumbnails .project-cover {
+  border: 0px;
+}
+#two-column-footer-container {
+  margin: 0px;
+}
+#two-column-footer {
+  text-align: center;
+}
+/*** end project thumbs ***/
+/*** project detail */
+#project-info-container {
+  width: 100%;
+  height: 150px;
+  margin: 0 auto;
+  border-top: 1px solid gainsboro;
+}
+#two-column-work-description-text-margins {
+  margin: 0 80px;
+}
+.project-view-title, .project-view-description {
+  padding-top: 20px;
+  text-align: center;
+  margin: 0;
+}
+.project-view-description-container, .project-view-description-margins {
+  display: none;
+}
+#project-container {
+ width: 100%; 
+}
+#two-column-project-container img {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+}
+#header-projects-container {
+  width: 100%;
+}
+/****end project detail***/

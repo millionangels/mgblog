@@ -1,0 +1,512 @@
+$dark: #29252B ;
+$medium: #79737A  ;
+$light: #F8F6F3 ;
+$pizazz: #D63E24;
+$pale: #B8B7B8 ;
+$hilight: #682351;
+
+$border: 1px solid $pale;
+
+$sans: 'Open Sans', sans-serif;
+$serif: 'Lora', serif;
+$basefontweight: 300;
+$basefontsize: 16px;
+$breakpoint1: 420px;
+$breakpoint2: 680px;
+$breakpoint3: 980px;
+$navheight: 2em;
+$thin: 1em;
+$thick: 2em;
+$logowidth: 30%;
+$navwidth: 100% - $logowidth;
+
+a.pin {
+ &::after {
+  content: "";
+ }
+}
+.tagA {
+    -webkit-animation-delay: 0s;
+    color: $medium;
+}
+.tagB {
+    -webkit-animation-delay: .4s;
+    color: $medium;
+}
+.tagC {
+    -webkit-animation-delay: .8s;
+    color: $medium;
+}
+.tagD {
+   -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+    color: $hilight;
+    font-weight: 700;
+  background-image: -webkit-linear-gradient(92deg,$hilight,$pizazz);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+//  -webkit-animation: hue 60s  linear;
+}
+
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+body {
+    font-weight: $basefontweight;
+    font-size: $basefontsize;
+    font-family: $sans;
+    padding: 0;
+    background: $light;
+}
+h1 { font-size: $basefontsize + 5px; font-weight: 300; letter-spacing: 2px; text-transform: uppercase; }
+h2 { font-size: $basefontsize - 2px; font-weight: 300; text-transform: none; }
+h3 { font-size: $basefontsize - 3px; font-family: $serif; font-style: italic; font-weight: normal; line-height: 1; color: $hilight; text-transform: none; letter-spacing: normal; }
+p { line-height: 1.5; }
+.right {
+    text-align: left;
+    @media only screen and (min-width: $breakpoint2) {
+        text-align: right;
+    }
+}
+.icon {
+    margin-right: $thin;
+}
+a  {
+    text-decoration: none;
+    color: $medium;
+    font-weight: 300;
+    &:hover, &:active {
+        color: $hilight;
+    }
+}
+a.fixed {
+    color: $medium;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    border-top: $border;
+    border-bottom: $border;
+    box-sizing: border-box;
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+    width: auto;
+    padding: 0;
+    text-align: left;
+    a {
+        display: block;
+        box-sizing: border-box;
+        line-height: 2;
+        padding-top: $thin;
+        padding-bottom: $thin;
+        padding-right: $thick;
+        @extend a.fixed;
+        font-weight: 700;
+        font-size: $basefontsize - 2px;
+    }
+    a.active {
+        background-image: -webkit-linear-gradient(45deg,$hilight,$pizazz);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+.first {
+    padding-top: $thick * 5 + $navheight;
+}
+.brand {
+    margin: 0;
+    p, h1, h2 {
+        padding: 0;
+        line-height: 1.5;
+    }
+}
+.section, .fixed {
+    max-width: 1200px !important;
+}
+.container {
+    position:relative;
+    color: $dark;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.designer, .fixed {
+    background: $light;
+    color: $dark;
+    display: block;
+}
+.fixed {
+    position: fixed;
+    top: 0px;
+    display: block;
+    width: 90%;
+    z-index: 50;
+    .logo {
+        padding: 0;
+        font-weight: 700;
+        a {
+           @extend a.fixed;
+            padding: $thick 0;
+            display: block;
+            width: 20em;
+            text-align: left;
+            &:hover {
+                color: $hilight;
+            }
+            @media only screen and (min-width: $breakpoint1) {
+                height: $navheight * .6;
+            }
+        }
+    }
+}
+
+.subnav {
+//    border-top: $border;
+    padding-bottom: $thin;
+    a {
+        @extend .getmore;
+        font-size: $basefontsize - 2px;
+        text-transform: uppercase;
+        display: block;
+        padding-top: $thick;
+        padding-right: $thick;
+
+        float: left;
+        box-sizing: border-box;
+        font-weight: 700;
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+}
+.share {
+    display: block;
+    padding: 0;
+    height: 48px;
+    margin-right: $thick;
+    margin-bottom: $thin;
+    background-repeat: no-repeat;
+    background-position: left center;
+    text-indent: $thick;
+    float: left;
+    @media only screen and (min-width: $breakpoint2) {
+        float: none;
+    }
+    a {
+        display: block;
+        width: 48px;
+        height: 48px;
+        margin: $thin 0;
+        color: transparent;
+        text-transform: uppercase;
+        font-size: small;
+        letter-spacing: 1px;
+        font-weight: 700;
+        @media only screen and (min-width: $breakpoint2) {
+            padding-left: 0;
+            margin:  0;
+            padding: $thin 0;
+            color: $hilight;
+            width: 100%;
+            &:hover {
+                color: $medium;
+            }
+        }
+    }
+}
+
+.behance {
+        background-image: url(../images/behanceL.jpg);
+        @media only screen and (min-width: $breakpoint2) {
+            background-image: url(../images/behance.jpg);
+            &:hover {
+                background-image: url(../images/behanceOn.jpg);
+            }
+        }
+        @media only screen and (min-width: $breakpoint3) {
+            a {
+               &::before {
+                    content: "Appreciate on ";
+               }
+            }
+        }
+
+}
+.facebook {
+        background-image: url(../images/facebookL.jpg);
+        @media only screen and (min-width: $breakpoint2) {
+            background-image: url(../images/facebook.jpg);
+            &:hover {
+                background-image: url(../images/facebookOn.jpg);
+            }
+        }
+        @media only screen and (min-width: $breakpoint3) {
+            a {
+               &::before {
+                    content: "Share on ";
+               }
+            }
+        }
+}
+.twitter {
+        background-image: url(../images/twitterL.jpg);
+        @media only screen and (min-width: $breakpoint2) {
+            background-image: url(../images/twitter.jpg);
+            &:hover {
+                background-image: url(../images/twitterOn.jpg);
+            }
+        }
+        @media only screen and (min-width: $breakpoint3) {
+            a {
+               &::before {
+                    content: "Tweet on ";
+               }
+            }
+        }
+}
+.pinterest {
+        background-image: url(../images/pinterestL.jpg);
+        @media only screen and (min-width: $breakpoint2) {
+            background-image: url(../images/pinterest.jpg);
+            &:hover {
+                background-image: url(../images/pinterestOn.jpg);
+            }
+        }
+        @media only screen and (min-width: $breakpoint3) {
+            a {
+               &::before {
+                    content: "Pin on ";
+               }
+            }
+        }
+}
+.tiny {
+    padding-top: $thin/2 !important;
+    padding-bottom: $thin/2 !important;
+    -webkit-transition-duration: 1s;
+}
+
+footer, section {
+    text-align: left;
+}
+footer {
+    color: $medium;
+    min-height: 4em;
+    padding: $thick 0 $thick * 2 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-wrap: normal;
+    font-size: small;
+    a { color: $medium; font-weight: 700; }
+    clear: both;
+    border-top: $border;
+}
+.thumbs {
+//    clear: both;
+    margin: 0;
+    padding: $thick 0;
+    z-index: -80 !important;
+    h1 {
+        line-height: 3;
+        border-top: $border;
+    }
+
+    h2 {
+        line-height: 1.2;
+        letter-spacing: 1.5px;
+    }
+    ul {
+        margin: 0;
+        text-align: left;
+        padding: 0;
+    }
+    li {
+        display: inline-block;
+        padding: 0;
+        vertical-align: top;
+        padding-bottom: $thick;
+        padding-top: 0;
+        width: 100%;
+        box-sizing: border-box;
+        @media only screen and (min-width: $breakpoint1) {
+            img {
+                float: left;
+                margin-right: $thin;
+            }
+            h1, h2, h3, p {
+            }
+        }
+        @media only screen and (min-width: $breakpoint2) {
+            img { float: none; }
+            width: 33.333333%;
+            h1, h2, h3, p {
+                text-indent: 0px;
+            }
+        }
+        @media only screen and (min-width: $breakpoint3) {
+            width: 25%;
+            h1, h2, h3, p {
+                text-indent: 0;
+            }
+        }
+        img {
+            display: block;
+            width: 100%;
+            max-width:100%;
+            border: $border;
+            @media only screen and (min-width: $breakpoint2) {
+                mix-blend-mode: multiply;
+            }
+            &:hover {
+                opacity: .8;
+                border: 1px solid $dark;
+            }
+            @media only screen and (min-width: $breakpoint1) {
+                max-width:55%;
+
+            }
+            @media only screen and (min-width: $breakpoint2) {
+             max-width:90%;
+            }
+        }
+    }
+}
+
+a.getmore {
+        display: block;
+        height: 4em;
+        font-weight: 700;
+        font-size: $basefontsize - 3px;
+        color: $hilight;
+        text-transform: uppercase;
+        &:hover {
+            color: $medium;
+        }
+    }
+.smallthumbs {
+    @extend .thumbs;
+    li {
+        width: 50%;
+        padding-right: $thin;
+        h2, h3 {
+            line-height: 1.2;
+            text-indent: 0;
+        }
+        img {
+            float: none;
+//            width: 100%;
+            max-width: 100%;
+            border: $border;
+            padding: 0;
+            }
+        @media only screen and (min-width: $breakpoint1) {
+         width: 33.33333%;
+        }
+        @media only screen and (min-width: $breakpoint2) {
+         width: 25%;
+        }
+        @media only screen and (min-width: $breakpoint3) {
+         width: 20%;
+        }
+    }
+}
+.featurelight {
+    z-index: -100;
+}
+.half {
+        width: 100%;
+        margin: 0;
+        height: auto;
+        @media only screen and (min-width: $breakpoint2) {
+            width: 50%;
+            float: left;
+        }
+    }
+ .third {
+        width: 100%;
+        margin: 0;
+        height: auto;
+        @media only screen and (min-width: $breakpoint2) {
+            width: 33.333333%;
+            float: left;
+            p, h1, h2, h3 {
+             margin-right: $thick;
+            }
+        }
+    }
+   .twothird {
+        width: 100%;
+        margin: 0;
+        height: auto;
+        @media only screen and (min-width: $breakpoint2) {
+            width: 66.66667%;
+            float: left;
+        }
+    }
+.feature {
+    @extend .featurelight;
+//    border-bottom: $border;
+    display: block;
+    overflow: auto;
+    padding-bottom: $thick;
+
+    h2 {
+        line-height: 1.5;
+    }
+    span, p {
+        color: $medium;
+        text-align: left !important;
+        font-size: $basefontsize - 2px !important;
+        line-height: 1.5;
+    }
+    img.mod {
+        max-width: 100%;
+        margin-bottom: $thin;
+        border: $border;
+        box-sizing: border-box;
+    }
+
+}
+.about {
+    div { padding-bottom: $thick * 2; }
+    a {
+        color: $hilight;
+        &:hover {
+            color: $medium;
+        }
+    }
+    ul {
+        padding: 0;
+        margin: 0;
+        padding-left: $thin + .2em;
+
+    }
+    li {
+        font-size: $basefontsize - 2px;
+        list-style-position: outside;
+        padding-bottom: $thin;
+        list-style-type: square;
+    }
+    img {
+        max-width: 90%;
+        margin: 0 auto;
+        display: block;
+        @media only screen and (min-width: $breakpoint2) {
+            padding-right: $thick * 2;
+            padding-bottom: $thick * 2;
+         }
+     }
+}
+
+.bumpit {
+display: block; position: relative; top: -250px; visibility: hidden;
+}
