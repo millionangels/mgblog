@@ -1,0 +1,31 @@
+.wireframe nav {
+/*    padding-left: 10%;   */
+}
+.wireframe li {
+    width: 50%;
+    float: left;
+}
+.wireframe li a.thumbnail {
+    width: 100%; 
+    height: 160px;
+    border: 1px solid;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.wireframe .pagination {
+    clear: both;   
+}
+
+.wireframe .project .projectinfo {
+    float: left; 
+    width: 25%;
+}
+.wireframe .project .fullimage {
+    display: block;
+    width: 70%;
+    height: 500px;
+    border: 1px solid;
+    float: right;
+    margin-bottom: 1em;
+}

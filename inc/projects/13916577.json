@@ -1,0 +1,316 @@
+{
+    "project": {
+        "id": 13916577,
+        "name": "Square Peg",
+        "published_on": 1390355033,
+        "created_on": 1390486678,
+        "modified_on": 1429231995,
+        "url": "https://www.behance.net/gallery/13916577/Square-Peg",
+        "privacy": "public",
+        "fields": [
+            "Branding",
+            "Graphic Design",
+            "Writing"
+        ],
+        "covers": {
+            "115": "https://mir-s3-cdn-cf.behance.net/projects/115/80ef5d13916577.551d65618d0d5.jpg",
+            "202": "https://mir-s3-cdn-cf.behance.net/projects/202/80ef5d13916577.551d65618d0d5.jpg",
+            "230": "https://mir-s3-cdn-cf.behance.net/projects/230/80ef5d13916577.551d65618d0d5.jpg",
+            "404": "https://mir-s3-cdn-cf.behance.net/projects/404/80ef5d13916577.551d65618d0d5.jpg"
+        },
+        "mature_content": 0,
+        "mature_access": "allowed",
+        "owners": [
+            {
+                "id": 3631941,
+                "first_name": "Megan",
+                "last_name": "Goodacre",
+                "username": "megangoodacre",
+                "city": "Ottawa",
+                "state": "Ontario",
+                "country": "Canada",
+                "location": "Ottawa, Ontario, Canada",
+                "company": "",
+                "occupation": "Designer",
+                "created_on": 1380385887,
+                "url": "https://www.behance.net/megangoodacre",
+                "images": {
+                    "50": "https://mir-s3-cdn-cf.behance.net/user/50/3631941.53bda16da9c91.jpg",
+                    "100": "https://mir-s3-cdn-cf.behance.net/user/100/3631941.53bda16da9c91.jpg",
+                    "115": "https://mir-s3-cdn-cf.behance.net/user/115/3631941.53bda16da9c91.jpg",
+                    "138": "https://mir-s3-cdn-cf.behance.net/user/138/3631941.53bda16da9c91.jpg",
+                    "230": "https://mir-s3-cdn-cf.behance.net/user/230/3631941.53bda16da9c91.jpg",
+                    "276": "https://mir-s3-cdn-cf.behance.net/user/276/3631941.53bda16da9c91.jpg"
+                },
+                "display_name": "Megan Goodacre",
+                "fields": [
+                    "Graphic Design",
+                    "Branding",
+                    "Web Design"
+                ],
+                "has_default_image": 0,
+                "website": ""
+            }
+        ],
+        "stats": {
+            "views": 51,
+            "appreciations": 0,
+            "comments": 0
+        },
+        "canvas_width": 724,
+        "tags": [
+            "logo",
+            "student",
+            "furniture",
+            "children"
+        ],
+        "description": "The challenge: Design a logo, identity system, and print marketing for Square Peg, a children's furniture company. The identity needed to convey a sense of modern whimsy and the simplicity of the building materials.",
+        "editor_version": 4,
+        "modules": [
+            {
+                "id": 167298851,
+                "type": "text",
+                "full_bleed": 0,
+                "alignment": "center",
+                "caption_alignment": "left",
+                "text": "<div><div class=\"main-text\">The logo plays on the literal idea of square pegs in round holes. The Square Peg shopper can probably relate to being a little unusual herself.</div></div>",
+                "text_plain": "The logo plays on the literal idea of square pegs in round holes. The Square Peg shopper can probably relate to being a little unusual herself."
+            },
+            {
+                "id": 167298991,
+                "type": "text",
+                "full_bleed": 0,
+                "alignment": "center",
+                "caption_alignment": "left",
+                "text": "<div>A bright palette creates potential for fun displays, and gives a sense of a fantastic kid's playroom. And the copy is sweet and nostalgic: \"Remember that rocket ship you made out of cardboard boxes when you were young? Well, our ModCubes will take them over the moon.\"</div>",
+                "text_plain": "A bright palette creates potential for fun displays, and gives a sense of a fantastic kid's playroom. And the copy is sweet and nostalgic: \"Remember that rocket ship you made out of cardboard boxes when you were young? Well, our ModCubes will take them over the moon.\""
+            },
+            {
+                "id": 167299005,
+                "type": "text",
+                "full_bleed": 0,
+                "alignment": "center",
+                "caption_alignment": "left",
+                "text": "<div>The ad mock up (lower image) uses an image of the Open Cube from David Siegel's BooCoup bamboo furniture. Student work.</div>",
+                "text_plain": "The ad mock up (lower image) uses an image of the Open Cube from David Siegel's BooCoup bamboo furniture. Student work."
+            },
+            {
+                "id": 96343375,
+                "type": "image",
+                "full_bleed": 0,
+                "alignment": "center",
+                "caption_alignment": "left",
+                "src": "https://m1.behance.net/rendition/modules/96343375/disp/62ef1afc3f3f0195af81545d60eba5eb.jpg",
+                "sizes": {
+                    "disp": "https://m1.behance.net/rendition/modules/96343375/disp/62ef1afc3f3f0195af81545d60eba5eb.jpg",
+                    "original": "https://m1.behance.net/rendition/modules/96343375/orig/62ef1afc3f3f0195af81545d60eba5eb.jpg",
+                    "max_1240": "https://m1.behance.net/rendition/modules/96343375/hd/62ef1afc3f3f0195af81545d60eba5eb.jpg",
+                    "max_1200": "https://m1.behance.net/rendition/modules/96343375/max_1200/62ef1afc3f3f0195af81545d60eba5eb.jpg"
+                },
+                "dimensions": {
+                    "disp": {
+                        "width": 600,
+                        "height": 217
+                    },
+                    "original": {
+                        "width": 1200,
+                        "height": 434
+                    },
+                    "max_1240": {
+                        "width": 1200,
+                        "height": 434
+                    },
+                    "max_1200": {
+                        "width": 1200,
+                        "height": 434
+                    }
+                },
+                "width": 600,
+                "height": 217
+            },
+            {
+                "id": 96482701,
+                "type": "image",
+                "full_bleed": 0,
+                "alignment": "center",
+                "caption_alignment": "left",
+                "src": "https://m1.behance.net/rendition/modules/96482701/disp/4a926135bd1a1d8a65156bc8e6960f87.jpg",
+                "sizes": {
+                    "disp": "https://m1.behance.net/rendition/modules/96482701/disp/4a926135bd1a1d8a65156bc8e6960f87.jpg",
+                    "original": "https://m1.behance.net/rendition/modules/96482701/orig/4a926135bd1a1d8a65156bc8e6960f87.jpg",
+                    "max_1240": "https://m1.behance.net/rendition/modules/96482701/hd/4a926135bd1a1d8a65156bc8e6960f87.jpg",
+                    "max_1200": "https://m1.behance.net/rendition/modules/96482701/max_1200/4a926135bd1a1d8a65156bc8e6960f87.jpg"
+                },
+                "dimensions": {
+                    "disp": {
+                        "width": 600,
+                        "height": 481
+                    },
+                    "original": {
+                        "width": 1200,
+                        "height": 962
+                    },
+                    "max_1240": {
+                        "width": 1200,
+                        "height": 962
+                    },
+                    "max_1200": {
+                        "width": 1200,
+                        "height": 962
+                    }
+                },
+                "width": 600,
+                "height": 481
+            },
+            {
+                "id": 96482703,
+                "type": "image",
+                "full_bleed": 0,
+                "alignment": "center",
+                "caption_alignment": "left",
+                "src": "https://m1.behance.net/rendition/modules/96482703/disp/ac390c4953a93b538dd3ff9aece78cbb.jpg",
+                "sizes": {
+                    "disp": "https://m1.behance.net/rendition/modules/96482703/disp/ac390c4953a93b538dd3ff9aece78cbb.jpg",
+                    "original": "https://m1.behance.net/rendition/modules/96482703/orig/ac390c4953a93b538dd3ff9aece78cbb.jpg",
+                    "max_1240": "https://m1.behance.net/rendition/modules/96482703/hd/ac390c4953a93b538dd3ff9aece78cbb.jpg",
+                    "max_1200": "https://m1.behance.net/rendition/modules/96482703/max_1200/ac390c4953a93b538dd3ff9aece78cbb.jpg"
+                },
+                "dimensions": {
+                    "disp": {
+                        "width": 600,
+                        "height": 360
+                    },
+                    "original": {
+                        "width": 1200,
+                        "height": 720
+                    },
+                    "max_1240": {
+                        "width": 1200,
+                        "height": 720
+                    },
+                    "max_1200": {
+                        "width": 1200,
+                        "height": 720
+                    }
+                },
+                "width": 600,
+                "height": 360
+            },
+            {
+                "id": 96471205,
+                "type": "image",
+                "full_bleed": 0,
+                "alignment": "center",
+                "caption_alignment": "left",
+                "src": "https://m1.behance.net/rendition/modules/96471205/disp/4bb369b2d176fb794f153f9a2c9986db.jpg",
+                "sizes": {
+                    "disp": "https://m1.behance.net/rendition/modules/96471205/disp/4bb369b2d176fb794f153f9a2c9986db.jpg",
+                    "original": "https://m1.behance.net/rendition/modules/96471205/orig/4bb369b2d176fb794f153f9a2c9986db.jpg",
+                    "max_1240": "https://m1.behance.net/rendition/modules/96471205/hd/4bb369b2d176fb794f153f9a2c9986db.jpg",
+                    "max_1200": "https://m1.behance.net/rendition/modules/96471205/max_1200/4bb369b2d176fb794f153f9a2c9986db.jpg"
+                },
+                "dimensions": {
+                    "disp": {
+                        "width": 600,
+                        "height": 776
+                    },
+                    "original": {
+                        "width": 1000,
+                        "height": 1294
+                    },
+                    "max_1240": {
+                        "width": 1000,
+                        "height": 1294
+                    },
+                    "max_1200": {
+                        "width": 1000,
+                        "height": 1294
+                    }
+                },
+                "width": 600,
+                "height": 776
+            }
+        ],
+        "short_url": "http://on.be.net/1cSRW7k",
+        "copyright": {
+            "license": "cc by-nc",
+            "description": "Attribution-NonCommercial",
+            "license_id": 3
+        },
+        "tools": [],
+        "styles": {
+            "text": {
+                "title": {
+                    "font_family": "arial,helvetica,sans-serif",
+                    "font_weight": "bold",
+                    "color": "#3B3B3B",
+                    "text_align": "left",
+                    "line_height": "1.4em",
+                    "font_size": "16px",
+                    "text_decoration": "none",
+                    "font_style": "normal",
+                    "display": "inline"
+                },
+                "subtitle": {
+                    "font_family": "arial,helvetica,sans-serif",
+                    "font_weight": "normal",
+                    "color": "#3B3B3B",
+                    "text_align": "left",
+                    "line_height": "1.4em",
+                    "font_size": "14px",
+                    "text_decoration": "none",
+                    "font_style": "normal",
+                    "display": "inline"
+                },
+                "paragraph": {
+                    "font_family": "arial,helvetica,sans-serif",
+                    "font_weight": "normal",
+                    "color": "#3B3B3B",
+                    "text_align": "left",
+                    "line_height": "1.4em",
+                    "font_size": "12px",
+                    "text_decoration": "none",
+                    "font_style": "normal",
+                    "display": "inline"
+                },
+                "caption": {
+                    "font_family": "arial,helvetica,sans-serif",
+                    "font_weight": "normal",
+                    "color": "#3B3B3B",
+                    "text_align": "left",
+                    "line_height": "1.4em",
+                    "font_size": "11px",
+                    "text_decoration": "none",
+                    "font_style": "italic",
+                    "display": "block"
+                },
+                "link": {
+                    "font_family": "arial,helvetica,sans-serif",
+                    "font_weight": "normal",
+                    "color": "#1769FF",
+                    "text_align": "left",
+                    "line_height": "1.4em",
+                    "font_size": "12px",
+                    "text_decoration": "none",
+                    "font_style": "normal",
+                    "display": "inline"
+                }
+            },
+            "background": {
+                "color": "E9E9E9"
+            },
+            "spacing": {
+                "project": {
+                    "top_margin": 50
+                },
+                "modules": {
+                    "bottom_margin": 20
+                }
+            },
+            "dividers": {
+                "display": "none"
+            }
+        }
+    },
+    "http_code": 200
+}

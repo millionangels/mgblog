@@ -1,0 +1,434 @@
+a.pin::after {
+  content: ""; }
+
+.tagA {
+  -webkit-animation-delay: 0s;
+  color: #79737A; }
+
+.tagB {
+  -webkit-animation-delay: .4s;
+  color: #79737A; }
+
+.tagC {
+  -webkit-animation-delay: .8s;
+  color: #79737A; }
+
+.tagD {
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+  color: #682351 !important; }
+
+body {
+  font-weight: 300;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  padding: 0;
+  background: #F8F6F3; }
+
+h1 {
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase; }
+  h1 .animated {
+    font-weight: 100;
+    font-size: 24px;
+    color: #B8B7B8; }
+
+h2 {
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: none; }
+
+h3 {
+  font-size: 13px;
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #682351;
+  text-transform: none;
+  letter-spacing: normal; }
+
+p {
+  line-height: 1.5; }
+
+.right {
+  text-align: left; }
+  @media only screen and (min-width: 680px) {
+    .right {
+      text-align: right; } }
+
+.icon {
+  margin-right: 1em; }
+
+a {
+  text-decoration: none;
+  color: #79737A;
+  font-weight: 300;
+  -webkit-transition-duration: 0.5s !important; }
+  a:hover, a:active {
+    color: #682351; }
+
+a.fixed, nav li a, .fixed .logo a {
+  color: #29252B;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  font-size: 1.2em; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #B8B7B8;
+  border-bottom: 1px solid #B8B7B8;
+  box-sizing: border-box; }
+
+nav li {
+  display: inline-block;
+  margin: 0;
+  width: auto;
+  padding: 0;
+  text-align: left; }
+  nav li a {
+    display: block;
+    box-sizing: border-box;
+    line-height: 2;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 2em;
+    font-weight: 700;
+    font-size: 14px; }
+  nav li a.active {
+    color: #682351; }
+
+.first {
+  padding-top: 12em; }
+
+.brand {
+  margin: 0; }
+  .brand p, .brand h1, .brand h2 {
+    padding: 0;
+    line-height: 1.5; }
+
+.section, .fixed {
+  max-width: 1200px !important; }
+
+.container {
+  position: relative;
+  color: #29252B;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.designer, .fixed {
+  background: #F8F6F3;
+  color: #29252B;
+  display: block; }
+
+.fixed {
+  position: fixed;
+  top: 0px;
+  display: block;
+  width: 90%;
+  z-index: 50; }
+  .fixed .logo {
+    padding: 0;
+    font-weight: 700; }
+    .fixed .logo a {
+      padding: 2em 0;
+      display: block;
+      width: 20em;
+      text-align: left; }
+      .fixed .logo a:hover {
+        color: #682351; }
+      @media only screen and (min-width: 420px) {
+        .fixed .logo a {
+          height: 1.2em; } }
+
+.subnav {
+  padding-bottom: 1em; }
+  .subnav a {
+    color: #29252B !important;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 2em;
+    padding-right: 1em;
+    float: left;
+    box-sizing: border-box;
+    font-weight: 700; }
+    @media only screen and (min-width: 420px) {
+      .subnav a {
+        padding-right: 2em; } }
+    .subnav a:hover, .subnav a:active {
+      color: #682351 !important; }
+    .subnav a:last-child {
+      padding-right: 0; }
+
+.share {
+  display: block;
+  padding: 0;
+  height: 48px;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  background-repeat: no-repeat;
+  background-position: left center;
+  text-indent: 2em;
+  float: left; }
+  @media only screen and (min-width: 680px) {
+    .share {
+      float: none; } }
+  .share a {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin: 1em 0;
+    color: transparent;
+    text-transform: uppercase;
+    font-size: small;
+    letter-spacing: 1px;
+    font-weight: 700; }
+    @media only screen and (min-width: 680px) {
+      .share a {
+        padding-left: 0;
+        margin: 0;
+        padding: 1em 0;
+        color: #682351;
+        width: 100%; }
+        .share a:hover {
+          color: #79737A; } }
+
+.behance {
+  background-image: url(../images/behanceL.jpg); }
+  @media only screen and (min-width: 680px) {
+    .behance {
+      background-image: url(../images/behance.jpg); }
+      .behance:hover {
+        background-image: url(../images/behanceOn.jpg); } }
+  @media only screen and (min-width: 980px) {
+    .behance a::before {
+      content: "Appreciate on "; } }
+
+.facebook {
+  background-image: url(../images/facebookL.jpg); }
+  @media only screen and (min-width: 680px) {
+    .facebook {
+      background-image: url(../images/facebook.jpg); }
+      .facebook:hover {
+        background-image: url(../images/facebookOn.jpg); } }
+  @media only screen and (min-width: 980px) {
+    .facebook a::before {
+      content: "Share on "; } }
+
+.twitter {
+  background-image: url(../images/twitterL.jpg); }
+  @media only screen and (min-width: 680px) {
+    .twitter {
+      background-image: url(../images/twitter.jpg); }
+      .twitter:hover {
+        background-image: url(../images/twitterOn.jpg); } }
+  @media only screen and (min-width: 980px) {
+    .twitter a::before {
+      content: "Tweet on "; } }
+
+.pinterest {
+  background-image: url(../images/pinterestL.jpg); }
+  @media only screen and (min-width: 680px) {
+    .pinterest {
+      background-image: url(../images/pinterest.jpg); }
+      .pinterest:hover {
+        background-image: url(../images/pinterestOn.jpg); } }
+  @media only screen and (min-width: 980px) {
+    .pinterest a::before {
+      content: "Pin on "; } }
+
+.tiny {
+  padding-top: 0.5em !important;
+  padding-bottom: 0.5em !important;
+  -webkit-transition-duration: 1s; }
+
+footer, section {
+  text-align: left; }
+
+footer {
+  color: #79737A;
+  min-height: 4em;
+  padding: 2em 0 4em 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-wrap: normal;
+  font-size: small;
+  clear: both;
+  border-top: 1px solid #B8B7B8; }
+  footer a {
+    color: #79737A;
+    font-weight: 700; }
+
+.thumbs, .smallthumbs {
+  margin: 0;
+  padding: 2em 0;
+  z-index: -80 !important; }
+  .thumbs h1, .smallthumbs h1 {
+    line-height: 3;
+    border-top: 1px solid #B8B7B8; }
+  .thumbs h2, .smallthumbs h2 {
+    line-height: 1.2;
+    letter-spacing: 1.5px; }
+  .thumbs ul, .smallthumbs ul {
+    margin: 0;
+    text-align: left;
+    padding: 0; }
+  .thumbs li, .smallthumbs li {
+    display: inline-block;
+    padding: 0;
+    vertical-align: top;
+    padding-bottom: 1em;
+    padding-top: 0;
+    width: 100%;
+    box-sizing: border-box; }
+    @media only screen and (min-width: 420px) {
+      .thumbs li img, .smallthumbs li img {
+        float: left;
+        margin-right: 1em; } }
+    @media only screen and (min-width: 680px) {
+      .thumbs li, .smallthumbs li {
+        width: 33.333333%; }
+        .thumbs li img, .smallthumbs li img {
+          float: none; }
+        .thumbs li h1, .smallthumbs li h1, .thumbs li h2, .smallthumbs li h2, .thumbs li h3, .smallthumbs li h3, .thumbs li p, .smallthumbs li p {
+          text-indent: 0px; } }
+    @media only screen and (min-width: 980px) {
+      .thumbs li, .smallthumbs li {
+        width: 25%; }
+        .thumbs li h1, .smallthumbs li h1, .thumbs li h2, .smallthumbs li h2, .thumbs li h3, .smallthumbs li h3, .thumbs li p, .smallthumbs li p {
+          text-indent: 0; } }
+    .thumbs li img, .smallthumbs li img {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+      border: 1px solid #B8B7B8; }
+      @media only screen and (min-width: 680px) {
+        .thumbs li img, .smallthumbs li img {
+          mix-blend-mode: multiply; } }
+      .thumbs li img:hover, .smallthumbs li img:hover {
+        opacity: .8;
+        border: 1px solid #29252B; }
+      @media only screen and (min-width: 420px) {
+        .thumbs li img, .smallthumbs li img {
+          max-width: 55%; } }
+      @media only screen and (min-width: 680px) {
+        .thumbs li img, .smallthumbs li img {
+          max-width: 90%; } }
+
+a.getmore, .subnav a {
+  display: block;
+  height: 4em;
+  font-weight: 700;
+  font-size: 13px;
+  color: #682351;
+  text-transform: uppercase; }
+  a.getmore:hover, .subnav a:hover {
+    color: #79737A; }
+
+.smallthumbs li {
+  width: 50%;
+  padding-right: 1em; }
+  .smallthumbs li h2, .smallthumbs li h3 {
+    line-height: 1.2;
+    text-indent: 0; }
+  .smallthumbs li img {
+    float: none;
+    max-width: 100%;
+    border: 1px solid #B8B7B8;
+    padding: 0; }
+  @media only screen and (min-width: 420px) {
+    .smallthumbs li {
+      width: 33.33333%; } }
+  @media only screen and (min-width: 680px) {
+    .smallthumbs li {
+      width: 25%; } }
+  @media only screen and (min-width: 980px) {
+    .smallthumbs li {
+      width: 20%; } }
+
+.featurelight, .feature {
+  z-index: -100; }
+
+.half {
+  width: 100%;
+  margin: 0;
+  height: auto; }
+  @media only screen and (min-width: 680px) {
+    .half {
+      width: 50%;
+      float: left; } }
+
+.third {
+  width: 100%;
+  margin: 0;
+  height: auto; }
+  @media only screen and (min-width: 680px) {
+    .third {
+      width: 33.333333%;
+      float: left; }
+      .third p, .third h1, .third h2, .third h3 {
+        margin-right: 2em; } }
+
+.twothird {
+  width: 100%;
+  margin: 0;
+  height: auto; }
+  @media only screen and (min-width: 680px) {
+    .twothird {
+      width: 66.66667%;
+      float: left; } }
+
+.feature {
+  display: block;
+  overflow: auto;
+  padding-bottom: 2em; }
+  .feature h2 {
+    line-height: 1.5; }
+  .feature span, .feature p {
+    color: #79737A;
+    text-align: left !important;
+    font-size: 14px !important;
+    line-height: 1.5; }
+  .feature img.mod {
+    max-width: 100%;
+    margin-bottom: 1em;
+    border: 1px solid #B8B7B8;
+    box-sizing: border-box; }
+
+.about div {
+  padding-bottom: 4em; }
+.about a {
+  color: #682351; }
+  .about a:hover {
+    color: #79737A; }
+.about ul {
+  padding: 0;
+  margin: 0;
+  padding-left: 1.2em; }
+.about li {
+  font-size: 14px;
+  list-style-position: outside;
+  padding-bottom: 1em;
+  list-style-type: square; }
+.about img {
+  max-width: 90%;
+  margin: 0 auto;
+  display: block; }
+  @media only screen and (min-width: 680px) {
+    .about img {
+      padding-right: 4em;
+      padding-bottom: 4em; } }
+
+.bumpit {
+  display: block;
+  position: relative;
+  top: -250px;
+  visibility: hidden; }
+
+/*# sourceMappingURL=wireframe.css.map */

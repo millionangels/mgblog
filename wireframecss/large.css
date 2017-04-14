@@ -1,0 +1,10 @@
+
+.wireframe li {
+    width: 33.33333%;
+}
+
+.wireframe #page {
+    max-width: 1200px;   
+    margin-left: auto;
+    margin-right: auto;
+}
